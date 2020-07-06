@@ -32,7 +32,7 @@ public class TestController {
 		
 		System.out.println(termenRepository.findAll());
 		
-		
+		System.out.println("GitKraken developer branch test");
 	}
 
 }
