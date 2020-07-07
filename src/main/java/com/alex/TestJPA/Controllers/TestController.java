@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.alex.TestJPA.Data.model.Termen;
+import com.alex.TestJPA.Models.model.Termen;
 import com.alex.TestJPA.Repositories.LimbaRepository;
 import com.alex.TestJPA.Repositories.TermenRepository;
 
