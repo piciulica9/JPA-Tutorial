@@ -6,8 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import com.alex.TestJPA.Data.model.Limba;
-import com.alex.TestJPA.Data.model.Termen;
+import com.alex.TestJPA.Models.model.Limba;
+import com.alex.TestJPA.Models.model.Termen;
 import com.alex.TestJPA.Repositories.LimbaRepository;
 import com.alex.TestJPA.Repositories.TermenRepository;
 
@@ -26,6 +26,11 @@ public class TestJpaApplication implements CommandLineRunner {
 		System.out.println("run started");
 		
 		System.out.println("Context " + context);
+		
+		System.out.println("Check this");
+		System.out.println(context.getBean(TermenRepository.class).findAll().size());
+		System.out.println("TermenRepository");
+		System.out.println(context.getBean(TermenRepository.class));
 		
 	}
 }
