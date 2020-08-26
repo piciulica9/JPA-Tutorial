@@ -11,10 +11,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-<<<<<<< HEAD
 import javax.persistence.OneToMany;
-=======
->>>>>>> af92437fdb0d9be120254ca1fdb4b1322fff0bef
+
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -23,7 +21,6 @@ import lombok.Data;
 
 @Data
 @Entity
-
 //@JsonIgnoreProperties({"limba", "definitii"})
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Termen {
