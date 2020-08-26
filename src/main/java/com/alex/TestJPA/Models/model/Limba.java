@@ -20,6 +20,7 @@ import lombok.ToString;
 @Entity
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Limba {
+
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
